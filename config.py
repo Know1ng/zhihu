@@ -2,7 +2,8 @@ MONGO_URI = 'localhost'
 MONGO_DB = 'zhihu'
 MONGO_TABLE = 'Q&A'
 
-COOKIE = '_zap=1f123444-cda3-41e6-9bd5-faed75fdc54f; __DAYU_PP=jMVqzYvRirjiAIB6QBeR20fbf1cb5bbb; d_c0="ACBoJHgpVg6PTmJ_5KocVex5W-uczx94cgc=|1539080401"; _xsrf=44yqHv6csrjYmB5kSDXihR2iIshiwZ1C; q_c1=3d294fdc0247495db5795a70ae81e9ed|1541727319000|1509870515000; __utma=51854390.1454334617.1541727324.1541727324.1541727324.1; __utmz=51854390.1541727324.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=51854390.000--|3=entry_date=20171105=1; z_c0="2|1:0|10:1543910855|4:z_c0|92:Mi4xSzVoa0RRQUFBQUFBSUdna2VDbFdEaVlBQUFCZ0FsVk54NFB6WEFESGF2YjJleWVTSWxaa25pOTdOSC1LakpZTDNR|0c6fdcfca039daf4f4c64418c2f491015dac1e5458c924acfd5c6a4cb6bf703e"; tst=r; __gads=ID=53c3d9de1b582a58:T=1546678119:S=ALNI_MYi-QnB0oMP6Dga2ZC7A28z4T-4pA; tgw_l7_route=116a747939468d99065d12a386ab1c5f'
+# 添加用户登录后的cookie
+COOKIE = ''
 User_Agent = [
     'Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)',
     "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; AcooBrowser; .NET CLR 1.1.4322; .NET CLR 2.0.50727)",
